@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 *
 */
 @RestController
-public class HelloController 
+public class HelloController
 {
-	@RequestMapping("/taro")
-	public String taro(){
-		return "Taro desu!";
-	}
+@RequestMapping("/taro")
+public String taro() {
+return "Taro desu!!";
+}
 }
